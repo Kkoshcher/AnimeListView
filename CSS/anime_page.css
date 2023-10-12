@@ -1,0 +1,58 @@
+.Anime_presend {
+    width: 1600px;
+    height: 2000px;
+    /* background-color: aqua; */
+    margin: 50px auto;
+    text-align: center;
+}
+
+.Anime_presend span {
+    font-size: 40px;
+    position: relative;
+}
+
+.div_img {
+    background-color: rgb(240, 240, 240);
+    width: 1200px;
+    height: 550px;
+    position: relative;
+    /* display: flex; */
+    /* align-items: center; */
+    /* 圖片垂直居中 */
+    margin: auto;
+
+}
+
+.div_img p {
+    text-align: left;
+}
+
+.div_img img {
+    width: 260px;
+        height: 390px;
+        object-fit: cover;
+        transition: all 0.2s linear;
+}
+.div_img img:hover {
+    transform: scale(1.5);
+    transition: all 0.2s linear;
+    position: relative;
+    z-index: 888;
+
+}
+
+.div_text {
+    /* background-color: white; */
+    position: absolute;
+    top: 0;
+    left: 260px;
+    width: 940px;
+    height: 390px;
+    padding: 10px;
+}
+
+.pre_text {
+    word-break: break-all;
+    text-align: left;
+    
+}

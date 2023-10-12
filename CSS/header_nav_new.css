@@ -1,0 +1,84 @@
+header {
+    width: 100%;
+    background-color: burlywood;
+
+}
+
+
+
+.div_header {
+    width: auto;
+    margin: auto;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    /* 當項目未使用主軸（水平）上的所有可用空間時，該屬性會對齊靈活容器的項目。 */
+
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+}
+
+.navbar li {
+    display: block;
+    position: relative;
+    transition: .5s;
+    /* 過度 */
+    padding: 0, 0, 10px, 10px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.navbar li ::after {
+    content: '';
+    position: relative;
+    height: 4px;
+    background-color: blanchedalmond;
+    transition: .5s;
+
+}
+
+.header_button {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    margin: 0;
+    position: relative;
+}
+
+.header_button {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+}
+
+.header_button span {
+    position: relative;
+    transition: 0.5s;
+}
+
+.header_button span:after {
+    content: '\00bb';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    transition: 0.5s;
+}
+
+.header_button:hover span {
+    padding-right: 15px;
+}
+
+
+.header_button:hover span:after {
+    opacity: 1;
+}
+
+#Anime_head {
+    position: relative;
+    display: block;
+}
